@@ -1,0 +1,87 @@
+
+*{
+	box-sizing: border-box;
+}
+
+p{
+	padding: 5px;
+	background-color:  #ff0000b0;
+	border: 1px solid black;
+	width: 80px;
+	float: right;
+	margin-top: -3px;
+}
+div{
+	border: 2px solid black;
+	background-color: grey;
+	margin-bottom: 20px;
+	display: inline-block;
+	margin-top: 80px;
+	text-align: center;
+}
+.D1{
+	width: 27%;
+	height: 200px;
+	margin-right: 25px;
+}
+.D2{
+	width: 27%;
+	height: 200px;
+	margin-right: 25px;
+}
+.D3{
+	width: 27%;
+	height: 200px;
+	margin-right: 25px;
+}
+
+.H{
+	color: blue;
+	font-size: 80px;
+	font-family: cursive;
+}
+.link
+{
+	text-align: center;
+	background-color: grey;
+	font-size: 30px;
+	font-family: cursive;
+}
+@media (min-width: 700px) and (max-width: 900px)
+{
+	.D1{
+	width: 45%;
+	height: 200px;
+	margin-right: 25px;
+}
+.D2{
+	width: 45%;
+	height: 200px;
+	margin-right: 25px;
+}
+.D3{
+	width: 95%;
+	height: 200px;
+	margin-right: 25px;
+}
+}
+@media (max-width: 699px)
+{
+		.D1{
+	width: 85%;
+	height: 200px;
+	margin-right: 25px;
+}
+.D2{
+	width: 85%;
+	height: 200px;
+	margin-right: 25px;
+	margin-top: -2px;
+}
+.D3{
+	width: 85%;
+	height: 200px;
+	margin-right: 25px;
+	margin-top: -2px;
+}
+}
